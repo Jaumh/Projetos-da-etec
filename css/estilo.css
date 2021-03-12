@@ -1,0 +1,52 @@
+<title> 1f primeiro site </title>
+	<style type="text/css">
+		p {
+            color:white;
+            text-align:center;
+
+        }
+        body {
+        	background-image: url(../imagens/a.jpeg);
+           width:80%;
+           margin-left:auto;
+           margin-right:auto;
+        }
+        h1 {
+        	font-size:45px;
+        	text-align:center;
+        	font-weight: bold;
+        	background-color: #696969
+        }
+        h2 {
+        	font-size:20px;
+        	text-align:left;
+        	font-weight:bold;
+        }
+        IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+    figure{
+     
+    border-image: 5px black;
+
+
+    }
+    a: link{
+        
+        color:white;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    a:visited{
+        color:blue;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    a:hover{
+     color: black
+     background-color:transparent;
+     text-decoration:none;
+        
+    }

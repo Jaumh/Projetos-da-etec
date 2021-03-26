@@ -1,0 +1,31 @@
+algarismo
+inicio 
+se dirija ao banheiro 
+tire suas roupas 
+vá ao box
+gire 90ºgraus os registros 
+passe sabonete no corpo 
+enxague 
+passe shanpoo
+enxague
+passe condicionador    
+enxague 
+saia do box 
+se seque 
+fim
+
+algarismo
+
+inicio
+pegue o primeiro numero e o segundo numero e some os dois 
+pegue o resultado e multiplique pelo primeiro 
+fim
+
+algarismo
+inicio 
+pegue uma escada e va para onde esta a lampada
+rosquei a lampada para a esquerda até sair 
+pegue outra em uma caixa nova 
+posicione a lampada nova 
+rosquei a lampad para a direita até ficar firme e ligar 
+fim  

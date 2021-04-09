@@ -2,25 +2,38 @@
 	<style type="text/css">
 		p {
             color:white;
-            text-align:center;
+            text-align:left;
+            margin-top: 2%;
+            font-size: 1.2em;
+            
 
         }
         body {
         	background-image: url(../imagens/a.jpeg);
-           width:80%;
            margin-left:auto;
            margin-right:auto;
         }
+        .container{
+    width: 80%;
+    margin-right:auto;
+    margin-left: auto; 
+        }
+       
         h1 {
         	font-size:45px;
         	text-align:center;
         	font-weight: bold;
-        	background-color: #696969
+            margin-top: 2%
+            margin-botton: 2%;
+            font-size: 2em;
         }
         h2 {
-        	font-size:20px;
+        	font-size:1.2em;
         	text-align:left;
         	font-weight:bold;
+            color:white;
+            font-size: 1.5em;
+
         }
         IMG.displayed {
     display: block;
@@ -50,3 +63,40 @@
      text-decoration:none;
         
     }
+    table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100%
+    }
+tr:nth-child(even) {
+ 
+    
+}
+td,th{
+     
+     border:1px solid white; 
+     color: white;
+     background-color: transparent;
+     padding: 3%
+     
+}
+.centro{
+  text-align: center;  
+
+}
+ header{
+    background-color: rgb(245,245,245,0.5);
+    width: 100%
+ }
+img{
+    width: 50%
+}
+footer{
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(255,255,224,0.5);
+}
+div{
+    width: 80%
+}

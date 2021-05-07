@@ -1,105 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>entendendo posicionamento</title>
+	<meta charset="utf-8">
+	<meta name="viewport content="width=device-width,initial-scale=1.0>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.png"><link rel="shortcut icon" href="imagens/favicon.png">
+
+	<title>entendendo posicionamento
+</title>
 </head>
-<style type="text/css">
-	
-    .fixo{
-    position: fixed;
-    top: 0;
-    right:0;
-    left:0;
-    z-index:1030;
-    background-color:pink;
-    }
-    .main{
-    	margin-top:6%;
-    }
 
-
-    .container{
-    	position: relative;    
-        width: 100%;
-        height: 1220px;
-        text-align: center;
-        background-image:url(imagens/a.jpeg);
-         }
-
-    .topoesquerda{
-      
-      position: absolute;
-      top:16px;
-      left: 16px;
-      width: 20%;
-      background-color: rgb(88, 163, 157);
-    }
-    .topodireita{
-    position: absolute;
-     top:16px;
-     right:16px;
-     width: 20%;
-     background-color:  rgb(88, 163, 157);	
-    }
-    .baixoesquerda{
-     position:absolute;
-     bottom:8px;
-     left:16px;
-     width:20%;
-     background-color:  rgb(88, 163, 157);
-     }
-    .abaixodireita{
-     position:absolute;
-     bottom:8px;
-     right:16px;
-     width:20%;
-     background-color:  rgb(88, 163, 157);
-    }
-    .centro{
-    position:absolute;
-    top:50%;
-    width:15%;
-    margin-left:40%;
-    background-color: rgb(88, 163, 157);
-    }
-   img{
-   	width:100%;
-   	max-height:auto;
-   }
-   .abaixomeio{
-   	position:absolute;
-    bottom:8px;
-    width:10%;
-    margin-left:40%;
-    background-color:  rgb(88, 163, 157);
-   } 
-   .abaixomeiodireita{
-   	position:absolute;
-    bottom:8px;
-    width:10%;
-    margin-left:50%;
-    background-color:  rgb(88, 163, 157);
-   }
-
-</style>
-<body>
+<body style="background-image:url(imagens/a.jpeg)">
 	<header class="fixo"> 
-    <h1>
-    	testando posicionamento
-    </h1>
+  
+   <nav class="nav2">
+	
+	<img src="imagens/1 logo trasparente2.png"; class="logo">
+	
+   <ul class="ul">
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="javascrip.html">comparação</a></li>
+        <li><a href="posicionamento.html">posicionamento</a></li>
+
+    </ul>
+	</nav>
     </header>
       <div  class="main">
-        <h1>testando...</h1>
-            <dir class="container">
-            	<div class="topoesquerda">topo esquerda</div>
-         	    <div class="topodireita">topo direita</div>
-                <div class="baixoesquerda">baixo esquerda</div>
+       
+            <dir class="container2">
+            	<div class="topoesquerda2">topo esquerda</div>
+         	    <div class="topodireita2">topo direita</div>
+                <div class="abaixoesquerda">baixo esquerda</div>
                 <div class="abaixodireita">baixo direita</div>
-                <div class="centro"> centro</div>
-                <p class="abaixomeio">volte ao inicio<a href="index.html">--click aqui</a>
-                <p class="abaixomeiodireita"> tambem nosso comparativo entre html, css e javascript <a 
-                href="javascrip.html">--click aqui</a></p>
-            </dir>
+                <div class="centropagina"> centro</div>
+                
+            </div>
 
           
 	</div>

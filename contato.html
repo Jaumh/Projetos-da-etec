@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css1/estilo.css">
+	<link rel="shortcut icon" href="imagens/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+	<title>Primeiro Site Html</title>
+</head>
+<body>
+	<header class="fixo">
+		<h1><img class="imglogo" src="imagens/1logotrasparente2.png"></h1>
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html#html">HTML</a></li>
+				<li><a href="index.html#css">CSS</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				<li><a href="index.html">sobre</a></li>	
+				<li><a href="index.html#galeria">galeria</a></li>					
+			</ul>									
+		</nav>		
+	</header>
+	<div class="container">
+	<h1 class="titulos">Formulario de contato</h1>
+		<p class="centro">entre em contato para sanar suas duvidas</p>	
+        <div class="fundo">
+        	<form>
+        	<div class="distancia">
+        		
+        	<input type="text" id="fname" name="fname" placeholder="Digite seu nome aqui">
+            </div>
+            <div class="distancia">
+            	
+        	<input type="text" id="fname" name="fname" placeholder="Assunto">
+            </div>
+            <div class="distancia">
+            	<fieldset>
+            	                <legend>Sexo</legend>
+  
+                <input type="radio" id="male" name="gender" value="male">
+            	<label for="male">homem</label><br>
+            	<input type="radio" id="famale" name="famale" value="famale">
+            	<label for="famale">mulher</label><br>
+            	</fieldset>
+
+            </div>
+            <div class="distancia">
+            	<fieldset>
+            	<legend>Musica</legend>
+            	<input type="checkbox" id="rock" name="rock" value="rock">
+            	<label for="rock">rock</label><br>
+            	<input type="checkbox" id="mpb" name="mpb" value="mpb">
+            	<label for="mpb">mpb</label><br>
+            	<input type="checkbox" id="sertanejo" name="serjanejo" value="sertanejo">
+            	<label for="sertanejo">sertanejo</label><br>
+            	<input type="checkbox" id="funk" name="funk" value="funk">
+            	<label for="funk">funk</label><br>
+            	</fieldset>
+            </div>
+            <div class="distancia">
+            	<label for="cars">escolaridade:</label>
+                  <select id="cars" name=cars>
+    	             <option value="fundamental">fundamental</option>
+    	             <option value="ensinomedio">ensino medio</option>
+    	             <option value="superio">superior</option>
+    	             <option value="tecnico">tecnico</option>
+                  </select>
+            </div>
+            <div class="distancia">
+            	<h2>sua reclamação </h2>
+            	<label for="textarea"></label>
+            	<textarea name="message" style="width:80%;height:200px;" placeholder="digite sua reclamação"></textarea>
+            </div>
+            <div class="distancia">
+            	<input type="submit" name="enviar">
+            </div>
+            </div>
+        	
+        </form>
+	</div>
+	<footer><p class="centro">Rodapé</p></footer>
+</body>
+</html>

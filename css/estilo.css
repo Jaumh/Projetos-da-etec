@@ -14,7 +14,7 @@
            margin-right:auto;
         }
         .container{
-    width:100%;
+    width:80%;
     margin-right:auto;
     margin-left: auto;
     z-index:1920;
@@ -99,11 +99,11 @@ td,th{
 
 }
  header{
-    background-color: rgb(245,245,245,0.5);
-    width: 100%
+    background-color:rgb(245,245,245,0.5);
+    width:100%;
  }
 img{
-    width:auto;
+    width:60%;
     margin-bottom:30px;
     height:auto;
 
@@ -121,8 +121,10 @@ div{
 {    
     width: 100%;
     padding:3%;
-    
-    background-color:transparent;}
+    background-color:transparent;
+   
+
+    }
 
 
 
@@ -207,7 +209,7 @@ div{
         width:120%;
         height:1080px;
         text-align: center;
-        margin-top:10%;
+        margin-top:12%;
 
     }
 
@@ -233,7 +235,7 @@ div{
     }
     .li{
         position:relative;
-        display:inline;
+        display:inline-block;
     }
 .nav2
 {    
@@ -258,27 +260,50 @@ div{
 .container{
         
         margin-top:40%;
-        width:100%;
+        width:80%;
         height:auto;
     }
     .logo{
         width:40%;
+        margin-bottom:4%;
+
     }
         
     }
     .li{
+        flex-direction:column;
         display:inline;
-        margin-left:2%;
-        text-align:center;
+        left:25%;
+        font-size:20px;
+       
+        
+    }
+     .ul{
+        position:relative;
+        display: inline-block;
+        margin-left:auto;
+        
+        
+
     }
     .nav{
-        padding:4%
-
+      
+       padding: 10%;
+      width: 100%;
     }
     .displayed{
         height:250px;
         width: 350px;
 
+    }
+  .container2{
+    margin-top:30%;
+    width:95%;
+   }
+    .nav2{
+      
+       padding: 10%;
+      width: 100%;
     }
 
 }
@@ -289,7 +314,7 @@ div{
     
     .ul{
         position:relative;
-        display:inline;
+        display:inline-block;
         margin-left:auto;
         text-align: center;
 
@@ -298,12 +323,18 @@ div{
         width:35%;
         
 }
+   .container2{
+    margin-top:15%;
+    width:120%;
+   }
+
 }
-@media only screen and (min-width: 601px){
+@media only screen and (min-width:601px){
 
 
  .conteiner{
         margin-top:13%;
+        width:80%;
     }
     
     .ul{
@@ -322,5 +353,22 @@ div{
 }
 .footer{
     margin-top:auto;
+    font-size:30px;
+
 }
+  .container2{
+    margin-top:15%;
+    width:120%;
+   }
+   .li{
+    left:10%;
+
+   }
+   .nav{
+    padding:4%;
+    position:absolute;
+   }
+   header{
+    position: relative;
+   }
 }
